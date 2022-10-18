@@ -9,7 +9,7 @@ int main(void)
 {
 	int t, u;
 
-	for (t ='0'; t <= '9'; t++)
+	for (t = '0'; t <= '9'; t++)
 	{
 		for (u = '0'; u <= '9'; u++)
 		{
@@ -18,7 +18,7 @@ int main(void)
 				putchar(t);
 				putchar(u);
 
-				if ( t != '8' || (t == '8' && u != '9'))
+				if (t != '8' || (t == '8' && u != '9'))
 				{
 					putchar(',');
 					putchar(' ');
@@ -26,7 +26,6 @@ int main(void)
 			}
 		}
 	}
-	putchar('\n\);
+	putchar('\n');
 	return (0);
 }
-
