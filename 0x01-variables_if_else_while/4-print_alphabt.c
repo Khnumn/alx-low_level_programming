@@ -14,11 +14,11 @@ int main(void)
 		if (ah != 'e' && ah != 'q')
 		{
 			putchar(ah);
-		}	
+		}
 		else
 		{
 		}
-	}		
+	}
 	putchar('\n');
 	return (0);
 }
