@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check code
+ * main - Initialize
  * Desc: prints '_putchar\n' 
  * Return: 0 success
  */
