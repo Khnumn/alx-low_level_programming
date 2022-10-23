@@ -8,7 +8,7 @@
 
 int _isupper(int c)
 {
-	if (c >= "26" || c <= "26")
+	if (c >= 26 || c <= 26)
 	{
 		return (1);
 	}
