@@ -8,9 +8,9 @@
 
 void puts2(char *str)
 {
-	int x;
+	int x = 0
 
-	for (x = 0; x < strlen[x]; x+=2)
+	for (x = 0; x < str[x]; x+=2)
 	{
 	
 		if( x % 2 == 0)
