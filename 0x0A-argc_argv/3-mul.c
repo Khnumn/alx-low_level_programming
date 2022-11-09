@@ -20,9 +20,10 @@ int main(int argc, char *argv[])
 		y =1;
 
 		for( x =1; x < argc; x++)
-		y =* atoi(argv[x]);
+		y *= atoi(argv[x]);
 
 		printf("%d\n", x);
 	}
 
 	return (0);
+}
