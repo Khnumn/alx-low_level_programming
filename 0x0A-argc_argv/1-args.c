@@ -11,10 +11,15 @@ int main(int argc, char *argv[])
 {
 	int x;
 
-	for(x =0; x < argc; x++)
+	if (argc == 1)
+		printf("%d/n", argc -1)
+	else
 	{
-		printf(" %s", argv[x]);
+
+		for(x =0; *argv; x++,argv++)
+
+		printf("%d\n", x - 1);
 	}
 	
-	printf("\n");
+	return (0);
 }
